@@ -1,0 +1,10 @@
+3 modules: 
+
+- interface graphique (fenetre pour rentrer texte + bouton pour chiffrer en SHA-ONE)
+- module chiffrement (système de hashage)
+	-> Chiffrement d'un message clair = clé de déchiffrement + message incompréhensible
+	-> Décryptage = déchiffrement sans la clé de déchiffrement
+- module hashage
++ test quickhash
+
+-> AES en mode CTR ou GCM
