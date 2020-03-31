@@ -1,10 +1,13 @@
-3 modules: 
+Pour lancer l'interface graphique afin d'utiliser le chiffrement et le déchiffrement:
+En ligne de commande, dans le bon répertoire, entrez :
+- python Project.py
 
-- interface graphique (fenetre pour rentrer texte + bouton pour chiffrer en SHA-ONE)
-- module chiffrement (système de hashage)
-	-> Chiffrement d'un message clair = clé de déchiffrement + message incompréhensible
-	-> Décryptage = déchiffrement sans la clé de déchiffrement
-- module hashage
-+ test quickhash
 
--> AES en mode CTR ou GCM
+Pour obtenir le hash d'un fichier x avec un algorithme y:
+En ligne de commande, dans le bon répertoire, entrez :
+
+- python Hash.py "y" "x"
+
+2 lignes apparaîtront,
+la première correspond au hash sans sel
+la deuxième correspond au hash avec sel
